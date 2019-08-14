@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+	<title>Think Whit Google</title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+<style>
+
+html,
+
+body {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    background: #ffffff;
+}
+
+/* What it does: Stops email clients resizing small text. */
+* {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* What it does: Centers email on Android 4.4 */
+div[style*="margin: 10px 0"] {
+    margin: 0 !important;
+}
+
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,
+td {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+}
+
+/* What it does: Fixes webkit padding issue. */
+table {
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+    margin: 0 auto !important;
+}
+
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+    -ms-interpolation-mode:bicubic;
+}
+
+/* What it does: Prevents Windows 10 Mail from underlining links despite inline CSS. Styles for underlined links should be inline. */
+
+/* What it does: A work-around for email clients meddling in triggered links. */
+*[x-apple-data-detectors],  /* iOS */
+.unstyle-auto-detected-links *,
+.aBn {
+    border-bottom: 0 !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+/* What it does: Prevents Gmail from displaying a download button on large, non-linked images. */
+.a6S {
+    display: none !important;
+    opacity: 0.01 !important;
+}
+
+/* What it does: Prevents Gmail from changing the text color in conversation threads. */
+.im {
+    color: inherit !important;
+}
+
+/* If the above doesn't work, add a .g-img class to any image in question. */
+img.g-img + div {
+    display: none !important;
+}
+/* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+/* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+    u ~ div .email-container {
+        min-width: 320px !important;
+    }
+}
+/* iPhone 6, 6S, 7, 8, and X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+    u ~ div .email-container {
+        min-width: 375px !important;
+    }
+}
+/* iPhone 6+, 7+, and 8+ */
+@media only screen and (min-device-width: 414px) {
+    u ~ div .email-container {
+        min-width: 414px !important;
+    }
+}
+
+/*Android*/
+@media only screen and (max-width: 500px)  {
+	.deviceWidth {width: 480px!important; padding:0;}
+	.center {text-align: center!important;}
+			}
+@media only screen and (max-width: 410px) {
+	.deviceWidth {width:373px!important; padding:0;}
+	.center {text-align: center!important;}
+			}
+</style>
+
+<!-- CSS Reset : END -->
+
+<!-- Progressive Enhancements : BEGIN -->
+ 
+ <style>
+
+.bg_white{
+	background: #ffffff;
+}
+.bg_light{
+	background: #fafafa;
+}
+.email-section{
+	padding:1.5em;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', arial, sans-serif;
+	color: #000000;
+	margin-top: 0;
+	font-weight: 400;
+}
+
+body{
+	font-family: 'Roboto', arial, sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.8;
+	color: #757575;
+}
+
+a{
+	color: #448ef6;
+	line-height : 25px;
+	text-decoration: none;
+}
+span{
+	line-height: 12px;
+}
+
+/*BLOG*/
+.text-services .meta{
+	font-size: 16px;
+	font-family: roboto, arial, sans-serif;
+	margin-bottom: 0;
+	font-weight: bold;
+	color: #606060;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+</style>
+</head>
+
+<body  style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #222222;">	<center style="width: 100%; background-color: #ffffff;">
+    <div style="display: none; font-size: 1px;max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+      &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </div>
+   
+   	 <!--PRE HEADER NO SE MODIFICA!-->
+<table>
+	<tr>
+		<td style="width:100%; valign:top; bgcolor:#ffffff" >
+<!--FIN PRE HEADER NO SE MODIFICA!-->
+ 			<div style="max-width: 700px; margin: 0 auto;" class="email-container">
+                <!-- BEGIN BODY -->
+    			<table style= "align:center; role:presentation; cellspacing:0; border:0; width:100%; margin:auto;">
+      				<tr>
+           				<td valign="top" class="bg_white" style="padding: 1em 1.5em;">
+           					<table style= "width:100%; border:0;">
+               					<tr>
+             						<td class="logo" style="text-align: center;">
+		           					<a href=" https://www.thinkwithgoogle.com/intl/es-419/" target="_blank"><img src="https://i.ibb.co/SxpCyJ8/logo.png" border="0" alt="encabezado" style="width:40%; padding-top:5%;"/></a> 
+               						</td>
+               					</tr>
+           					</table> 
+           				</td>
+	    			</tr>
+					<!-- end tr -->
+				        
+               		<tr>
+			             <td valign="middle" class="hero hero-2 bg_white" style="padding: 2px 0;">
+			                <table>
+			            	    <tr>
+			            		    <td>
+			            			    <div class="text" style="padding: 0 2em; text-align: center;">
+			           				    <p style="font-size: 16px; color: #757575; ">Insights del consumidor, tendencias digitales e inspiración creativa. Todo esto, y mucho más, puedes encontrar en </p>   
+			           					</div>
+			           				</td>
+			           			</tr>
+			           			<tr>
+			           				<td style="padding-top: 10px;"></td>
+			           			</tr>
+				            	<tr style="padding-top: 20px;">
+                        			<td style="word-break:break-word;font-size:0px;padding:0px 5px 5px;" align="center">
+                            			<div style="cursor:auto;color:#000000;font-family:Roboto, Helvetica, Arial, sans-serif;">
+                                			<a style="text-decoration:none; color: white;" href="https://www.thinkwithgoogle.com/intl/es-419/"><button style="background:#67a659; padding: 10px; font-size: 14px; border-radius: 1em; color:white;border-style: none;" type="button">Think Whit Google</button></a>
+                                		</div>
+                                	</td>
+                       			</tr>
+				            </table>
+				        </td>
+					</tr><!-- end tr -->
+
+
+				    <tr>
+    			        <td>
+					        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+					            <tr>
+					                <td>
+					            	    <div style="text-align: left; ">
+					       		       	    <img src="https://i.ibb.co/Cm6pPGy/portada.png" style="width: 100%">
+					            	  	    <p style="font-size: 16px; color: #757575; padding: 10px 20px; ">A continuación, lo último que se publicó en la plataforma:</p>
+					                     </div>
+					                </td>
+					            </tr>
+					        </table>
+			                            
+			                <table style="width:100%; border:0;">
+			                    <tr>
+			                        <td class="p30-15" style="padding: 20px 30px;" bgcolor="#f1f2f4" align="center">
+			                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+			                                <tr>
+			                                   <td style="color:#757575; font-weight: bold; font-family:'Roboto', Arial,sans-serif; font-size:24px; line-height:34px; text-align:left; padding-bottom:5px;">Los 5 artículos más leídos de mayo</td>
+			                                </tr>
+			                              	<tr>
+			                                	<td style="color:#67a659; font-family:'Roboto', Arial,sans-serif; font-size:18px; line-height:28px; text-align:left; font-weight: bold;"> 
+			                                   		<ol style="padding:0 1em;">
+			                                        	<li value="1"><p><a href="https://www.thinkwithgoogle.com/intl/es-419/recursos-y-herramientas/tecnolog%C3%AD-emergente/google-marketing-live-nuevas-oportunidades-y-soluciones-para-marketers/" style="color:#666666; text-decoration: underline;">Google Marketing Live: nuevas oportunidades y soluciones para marketers</a></p></li>
+			                                        	<li value="2"><p><a href="https://www.thinkwithgoogle.com/intl/es-419/insights/claves-para-conseguir-mejores-herramientas-de-medicion-de-marketing/" style="color:#666666; text-decoration: underline; "> Claves para conseguir mejores herramientas de medición de marketing </a></p></li>
+			                                        	<li value="3"><p><a href="https://www.thinkwithgoogle.com/intl/es-419/recursos-y-herramientas/video/bbva-expande-su-performance-con-trueview-for-action/" style="color:#666666; text-decoration: underline; "> BBVA expande su performance con TrueView for Action </a></p></li>
+			                                       		<li value="4"><p><a href="https://www.thinkwithgoogle.com/intl/es-419/recursos-y-herramientas/video/6-lideres-de-la-industria-hablan-sobre-los-cambios-en-el-primetime/" style="color:#666666;text-decoration: underline; "> 6 líderes de la industria hablan sobre los cambios en el primetime </a></p></li>
+			                                        	<li value="5"><p><a href="https://www.thinkwithgoogle.com/intl/es-419/recursos-y-herramientas/tecnolog%C3%AD-emergente/como-la-automatizacion-ayudo-a-una-empresa-a-generar-un-crecimiento-rentable/" style="color:#666666; text-decoration: underline; "> Cómo la automatización ayudó a una empresa a generar un crecimiento rentable </a></p></li>
+			                                     	</ol>
+			                                	</td>
+				                          	</tr>
+			                            </table>
+			    	                </td>
+			                    </tr>
+			        	    </table>
+			        		</table>
+
+			                <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#">
+                  				<tr>
+                    				<td style="padding: 20px 30px;" bgcolor="#ffffff" align="left">
+                        				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                	       					<tr>
+                                				<td style="color:#757575; font-weight: bold; font-family:'Roboto', Arial,sans-serif; font-size:24px; line-height:34px; text-align:left; padding-bottom:30px;">¿A cuántos marketers llegamos en mayo?</td>
+                    	   					</tr>
+                           					<tr>
+	                            				<td  style="color:#666666; font-family:'Roboto', Arial,sans-serif; font-size:18px; line-height:28px; text-align:left;"> 
+	                                				<h1 style="color:#67a659; padding-bottom: 0px; font-size: 52px; margin: 0; ">75,834</h1>
+	                                				<p style="padding-top: 0px; "> especialistas en marketing recibieron nuestros newsletters </p>
+	                                				<h1 style="color:#67a659; padding-bottom: 0px; font-size: 52px; margin: 0;">73,026 </h1>
+	                                				<p> especialistas en marketing recibieron nuestros newsletters </p>
+	                            				</td>
+                        					</tr>
+                       					</table>
+                   					</td>
+                   				</tr>
+                			</table>
+                		
+                	
+          </div>
+</table>
+        
+      
+			<table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth"  style="margin:0 auto;">
+				<tr width="750">
+		<!-- Hero -->
+                  	<td style="padding-top: 5px; padding-bottom:5px;">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">                           
+                            <tr style="width: 100%"> 
+                                <td class="p30-15" style="padding: 15px 30px;" bgcolor="#e54335">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            	        <tr>
+                                	        <td class="text white m-center" style="font-family:'Roboto', Arial,sans-serif; font-size:24px; line-height:28px; font-weight:bold; text-align:left; color:#ffffff;">Video
+                                	        </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>    
+                    <td class="center" style="padding:10px 0 0 0">
+            			<table width="50%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+                			<tr>
+                    			<td align="left" style="padding: 20px 0;">
+                        			<a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="320" src="https://i.ibb.co/x14bj2k/work1.png" alt="img2" border="0" style="; width: 345px" class="deviceWidth" /></a>
+                    			</td>
+                			</tr>
+                			<tr>
+                    			<td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+                        			<table>
+                            			<tr>                                              
+                                			<td>
+                                				<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+                                					<tr>
+                                						<td align="left" style="padding-right: 10px; padding-left:10px">
+                                							<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">6 líderes de la industria hablan sobre los cambios en el primetime.</a>
+                                							<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">La capacidad de mirar videos en línea en cualquier momento y en cualquier lugar ha influenciado no solo la manera en que las personas miran contenido, sino también qué miran. Preguntamos a seis líderes de la industria cómo evolucionaron sus hábitos de visualización de videos y el contenido, así como qué implicaciones tiene esto para las marcas.</p>
+                                							<p style="font-style: italic;font-size: 14px;"><span style="line-height: 14px;">Mercado: Global | Contribuyente: TwG Global Team</span></p>	
+                                						</td>
+                                					</tr>
+                             					</table> 
+                                			</td>
+                            			</tr>
+                        			</table>
+                    			</td>
+                			</tr>
+			            </table>
+            			
+            			<table width="48%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+            				<tr>
+                				<td align="left" style="padding: 20px 0;">
+                    				<a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="35" src="https://i.ibb.co/zS93DHz/work2.png" alt="" border="0" style=" width: 345px" class="deviceWidth" /></a>
+                				</td>
+            				</tr>
+            				<tr>
+                				<td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+                        			<table>
+                            			<tr>                                              
+                                			<td>
+                                				<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+                                					<tr>
+                                						<td align="left" style="padding-left: 10px; padding-right:10px;">
+                                							<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">BBVA expande su performance con TrueView for Action.</a>
+                                							<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">Cuando el objetivo es generar conversiones, el video online no suele estar entre las primeras opciones de los marketers. Sin embargo, el impacto de ese tipo de campañas en el rendimiento es cada vez mayor. Te contamos cómo hizo BBVA Francés para aumentar la solicitud de tarjetas de crédito con TrueView for Action </p>
+                                							<p style="font-style: italic;font-size: 14px;"><span>Mercado: AR | Contribuyente: Carolina Battista, Auto, Finance & Government Sector Lead, LCS Sales; Marcelo Reynal, Account Executive, LCS Sales</span></p>	
+                                						</td>
+                                					</tr>
+                                               	</table> 
+                                			</td>
+                            			 </tr>
+                        			</table>
+                    			</td>
+                			</tr>
+                		</table>
+                	</td>
+                </tr>
+            </table>
+     
+ <!-- DOS COLUMNAS-->
+			<table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth"  style="margin:0 auto;">
+				<tr>
+					<td class="center" style="padding:10px 0 0 0">
+            			<table width="50%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+                			<tr>
+                    <td align="left" style="padding: 20px 0;">
+                        <a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="320" src="https://i.ibb.co/yfsH8n8/work3.png" alt="img2" border="0" style="; width: 345px" class="deviceWidth" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+                        <table>
+                            <tr>                                              
+                                <td>
+                                	<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+	                                		<tr>
+    	                            			<td align="left" style="padding-left: 10px; padding-right:10px;">
+                                					<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">De la web a las aulas: cómo Siglo 21 disparó las matrículas gracias a una campaña diferente.</a>
+                                					<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">Con una principal colaboración de YouTube, la Universidad Siglo 21 logró aumentar el número de matrículas. No te pierdas, en este caso de éxito, los resultados de alto impacto que consiguió la institución educativa con su última campaña de video.</p>
+                                					<p style="font-style: italic;font-size: 14px;"><span> Mercado: AR | Contribuyente: María Fernanda Argote, Account Manager, LCS Sales</span></p>	
+                                				</td>
+                                			</tr>
+                                        </table> 
+                                	</td>
+                            	</tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+           	<table width="49%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+	            <tr>
+    	            <td align="left" style="padding: 20px 0;>
+        	            <a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="35" src="https://i.ibb.co/m6Vs63G/work4.png"   alt="" border="0" style=" width: 345px" class="deviceWidth" /></a>
+                	</td>
+            	</tr>
+            	<tr>
+                	<td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+                    	<table>
+                            <tr>                                              
+                                <td>
+                                	<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+	                                	<tr>
+                                			<td align="left" style="padding-left: 10px; padding-right:10px;">
+                                				<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">Jóvenes y videos: la combinación ideal para el éxito de Metrocuadrado.</a>
+                                				<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">En la era del machine learning, las marcas tienen la oportunidad de alcanzar a las audiencias correctas en los momentos adecuados. Descubre cómo Metrocuadrado, un portal de bienes raíces con más de dieciocho años de trayectoria en el mercado colombiano, aprovechó este contexto para impactar a nuevas audiencias a través de una campaña de video.</p>
+                                				<p style="font-style: italic;font-size: 14px;"><span>Mercado: CO | Contribuyente: Sole Escribano, Agency Development Manager, GCS Sales; Marcelo Alberti, Account Strategist, GCS Sales</span></p>	
+                                			</td>
+                                		</tr>
+                                	</table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+ 
+<!-- FIN DOS COLUMNAS -->
+
+	<tr>
+ 		<td>           
+			<table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth"  style="margin:0 auto;">
+				<tr width="750">
+				   	<td style="padding-top: 5px; padding-bottom: 5px;">
+
+		        <!-- Hero -->
+		            	<table width="100%" border="0" cellspacing="0" cellpadding="0">                                            
+			                <tr style="width: 100%"> 
+			                    <td class="p30-15" style="padding: 15px 30px;" bgcolor="#ebbb2d">
+			                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+			                            <tr>
+			                	            <td class="text white m-center" style="font-family:'Roboto', Arial,sans-serif; font-size:24px; line-height:28px; font-weight:bold; text-align:left; color:#ffffff;">Mobile</td>
+			                            </tr>
+			                        </table>
+			                    </td>
+			                </tr>
+			            </table>
+			        </td>
+			    </tr>
+			<!-- END Hero -->
+
+<!-- DOS COLUMNAS-->
+				<table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth"  style="margin:0 auto;">
+					<tr>
+						<td class="center" style="padding:10px 0 0 0">
+	            			<table width="50%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+	                			<tr>
+	                    			<td align="left" style="padding: 20px 0;">
+	                        		<a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="320" src="https://i.ibb.co/MsMqq41/work5.png" alt="" border="0" style="; width: 345px" class="deviceWidth" /></a>
+	                    			</td>
+	                			</tr>
+	                			<tr>
+	                    			<td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+	                        			<table>
+	                            			<tr>                                              
+	                                			<td>
+	                                				<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+	                                					<tr>
+	                                						<td align="left" style="padding-left: 10px; padding-right:10px;">
+	                                							<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">Guía para mejorar la velocidad de tu sitio y garantizar una asistencia online perfecta.</a>
+	                                							<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">Cuando navegan un sitio, los usuarios siempre están buscando algo: información precisa sobre un producto, inspiración antes de realizar una compra o algún tipo de interacción. Un segundo de demora durante ese recorrido puede afectar en más de un 20% a la conversión. Por este motivo, brindar una experiencia digital ágil, sin fricciones y de calidad es tan esencial. En esta colección descubre qué herramientas utilizar y qué parámetros medir para garantizar una asistencia online perfecta.</p>
+	                                							<p style="font-style: italic;font-size: 14px;"><span>Mercado: Global | Contribuyente: TwG Global Team</span></p>	
+	                                						</td>
+	                                					</tr>
+	                                                </table> 
+	                                			</td>
+	                             			</tr>
+	                        			</table>
+	                    			</td>
+	                			</tr>
+				            </table>
+	            			<table width="49%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+	            				<tr>
+	                				<td align="left" style="padding: 20px 0;">
+	                    				<a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="35" src="https://i.ibb.co/2SX6tHq/work6.png" alt="" border="0" style=" width: 345px" class="deviceWidth" /></a>
+	             	   				</td>
+	            				</tr>
+	            				<tr>
+	                				<td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+	                        			<table>
+	                            			<tr>                                              
+	                                			<td>
+	                                				<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+	                                					<tr>
+	                                						<td align="left" style="padding-left: 10px; padding-right:10px;">
+	                                							<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">¿Quieres conquistar a tus clientes? Ofréceles la asistencia que esperan</a>
+	                                							<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">Hoy en día, los consumidores esperan experiencias móviles veloces y sin fricciones. En este artículo, te compartimos cuatro estrategias de marketing que te permitirán anticiparte a sus necesidades para potenciar el crecimiento de tu marca.</p>
+	                                							<p style="font-style: italic;font-size: 14px;"><span>Mercado: Global | Contribuyente: TwG Global Team</span></p>	
+	                                						</td>
+	                                					</tr>
+	                                                </table> 
+	                                			</td>
+	                            			</tr>
+	                        			</table>
+	                    			</td>
+	                			</tr>
+	                		</table>
+	                	</td>
+	                </tr>
+	            </table>
+	        	<!-- FIN DOS COLUMNAS -->
+
+				<!-- DOS COLUMNAS-->	
+				<table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth"  style="margin:0 auto;">
+					<tr>
+						<td class="center" style="padding:10px 0 0 0">
+            				<table width="50%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+                				<tr>
+                    				<td align="left" style="padding: 20px 0;">
+                        				<a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="320" src="https://i.ibb.co/WfhLL1r/work7.png" alt="" border="0" style="; width: 345px" 	class="deviceWidth" /></a>
+                    				</td>
+                				</tr>
+                				<tr>
+                    				<td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+                        				<table>
+                            				<tr>                                              
+                                				<td>
+                                					<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+                                						<tr>
+                                							<td align="left" style="padding-left: 10px; padding-right:10px;">
+                                								<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">Masters of Mobile: Leandro Malandrini, director de Product Management & UX de Despegar.</a>
+                                								<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">Masters of Mobile es una serie de entrevistas para reflexionar acerca de las experiencias móviles que las marcas entregan a los usuarios. En este cuarto episodio conversamos con Leandro Malandrini, director de Product Management & UX de Despegar.</p>
+                                								<p style="font-style: italic;font-size: 14px;"><span> Mercado: AR | Contribuyente: Santiago Pachano, Travel Sector Lead, LCS Sales; Lucas Bonardi, Industry Manager, LCS Sales</span></p>	
+                                							</td>
+                                						</tr>
+                                                    </table> 
+                                				</td>
+                             				</tr>
+                        				</table>
+                    				</td>
+                				</tr>
+				            </table>
+            				<table width="49%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+            				<tr>
+                				<td align="left" style="padding: 20px 0;">
+                    				<a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="35" src="https://i.ibb.co/HXc3hGt/work8.png" alt="" border="0" style=" width: 345px" class="deviceWidth" /></a>
+                				</td>
+            				</tr>
+            				<tr>
+                				<td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+                        			<table>
+                            			<tr>                                              
+                                			<td>
+                                				<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+                                					<tr>
+                                						<td align="left" style="padding-left: 10px; padding-right:10px;">
+                                							<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">Masters of Mobile: Thomas Allier,CEO y Cofundador de Viajala.</a>
+                                							<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">Masters of Mobile es una serie de entrevistas para reflexionar acerca de las experiencias móviles que las marcas entregan a los usuarios. En este tercer episodio conversamos con Thomas Allier, CEO y cofundador de Viajala.</p>
+                                							<p style="font-style: italic;font-size: 14px;"><span>Mercado: CO | Contribuyente: Marcela Andrade, Account Manager, LCS Sales</span></p>	
+                                						</td>
+                                					</tr>
+                                                </table> 
+                                			</td>
+                             			</tr>
+                        			</table>
+                    			</td>
+                			</tr>
+                		</table>
+                	</td>
+                </tr>
+            </table>
+         	</table>
+        </td>
+    </tr>
+
+
+
+	<tr>
+ 		<td>           
+			<table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth"  style="margin:0 auto;">
+				<tr width="750">
+				    <td style="padding-top: 20px; padding-bottom: 5px;">
+		        <!-- Hero -->
+		            	<table width="100%" border="0" cellspacing="0" cellpadding="0">                                            
+                            <tr style="width: 100%"> 
+                                <td class="p30-15" style="padding: 15px 30px;" bgcolor="#5c84f0">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            	        <tr>
+                                	        <td class="text white m-center" style="font-family:'Roboto', Arial,sans-serif; font-size:24px; line-height:28px; font-weight:bold; text-align:left; color:#ffffff;">Trends & Insights</td>
+                                       	</tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+              
+	<!-- END Hero -->
+	<!-- DOS COLUMNAS-->
+			<table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth"  style="margin:0 auto;">
+				<tr>
+					<td class="center" style="padding:10px 0 0 0">
+            			<table width="50%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+                			<tr>
+                    			<td align="left" style="padding: 20px 0;">
+                        			<a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="320" src="https://i.ibb.co/ys43frT/work9.png"  alt="" border="0" style="; width: 345px" class="deviceWidth" /></a>
+                    			</td>
+                			</tr>
+                			<tr>
+                    			<td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+                        			<table>
+                            			<tr>                                              
+                                			<td>
+                                				<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+                                					<tr>
+                                						<td align="left" style="padding-left: 10px; padding-right:10px;">
+                                							<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">CyberDay 2019: claves para capturar la atención de los peruanos.</a>
+                                							<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">En vísperas del CyberDay Perú, se intensifica el interés de los consumidores por los descuentos. Estos momentos de intención presentan un sinfín de posibilidades para aquellas marcas que estén dispuestas a conocer sus necesidades y ofrecerles grandes experiencias de compra.</p>
+                                							<p style="font-style: italic;font-size: 14px;"><span>Mercado: PE | Contribuyente: Juan José Lizama, Analytical Lead, LCS Sales</span></p>	
+                                						</td>
+                                					</tr>
+                                   				</table> 
+                                			</td>
+                            			</tr>
+                        			</table>
+                   				</td>
+                			</tr>
+			            </table>
+            			<table width="49%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+            				<tr>
+                				<td align="left" style="padding: 20px 0;">
+                    				<a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="35" src="https://i.ibb.co/XSYRfHt/work10.png" alt="" border="0" style=" width: 345px" class="deviceWidth" /></a>
+                				</td>
+            				</tr>
+            				<tr>
+                				<td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+                        			<table>
+                            			<tr>                                              
+                                			<td>
+                                				<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+				                               		<tr>
+                			                			<td align="left" style="padding-left: 10px; padding-right:10px;">
+                           				     				<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">Gracias al machine learning, Joyerías Bizzarro brilló durante el Buen Fin.</a>
+                           				     				<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">En la era del machine learning, las marcas tienen la oportunidad de crear mensajes personalizados para conectar con sus potenciales clientes y lograr un mayor impacto. En esta nota te contamos cómo Joyerías Bizzarro –una compañía mexicana con cuarenta años de trayectoria– desarrolló una campaña inteligente de la Red de Display para impulsar la venta de sus productos durante el Buen Fin.</p>
+                                							<p style="font-style: italic;font-size: 14px;"><span>Mercado: CO | Contribuyente: Majo de la Calle, PSS, GMS Sales; Santiago Lozano, Account Strategist, GMS Sales</span></p>	
+                                						</td>
+                                					</tr>
+                                                </table> 
+                                			</td>
+                             			</tr>
+                        			</table>
+                    			</td>
+                			</tr>
+						</table><!-- FIN DOS COLUMNAS -->
+						<!-- DOS COLUMNAS-->
+				<table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth"  style="margin:0 auto;">
+					<tr>
+						<td class="center" style="padding:10px 0 0 0">
+				            <table width="50%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+				                <tr>
+				                    <td align="left" style="padding: 20px 0;">
+				                        <a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="320" src="https://i.ibb.co/J3LW3fy/work11.png" alt="" border="0" style="; width: 345px" class="deviceWidth" /></a>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+				                        <table>
+				                            <tr>                                              
+				                                <td>
+				                                	<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+				                                		<tr>
+				                                			<td align="left" style="padding-left: 10px; padding-right:10px;">
+				                                				<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">Cómo la automatización ayudó a una empresa a generar un crecimiento rentable.</a><p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">En la era del machine learning, las marcas tienen la oportunidad de conocer mejor a sus potenciales clientes y ofrecerles contenidos en función de sus necesidades. En este artículo, Jay Roth, director de Marketing de Dish Network, relata cómo la empresa le sacó el máximo provecho para expandir su base de suscriptores y generar más conversiones.</p>
+				                                				<p style="font-style: italic;font-size: 14px;"><span>Mercado: Global | Contribuyente: TwG Global Team</span></p>	
+				                                			</td>
+				                                		</tr>
+				                                
+				                                	</table> 
+				                                </td>
+				                             </tr>
+				                        </table>
+				                    </td>
+				                </tr>
+
+				            </table>
+				            <table width="49%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+				            	<tr>
+					                <td align="left"  style="padding: 20px 0;">
+					                    <a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="35" src="https://i.ibb.co/XkFyPzz/work12.png" alt="" border="0" style=" width: 345px" class="deviceWidth" /></a>
+					                </td>
+					            </tr>
+				           		 <tr>
+				                	<td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+				              	        <table>
+				                            <tr>                                              
+				                                <td>
+				                                	<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+				                                		<tr>
+				                                			<td align="left" style="padding-left: 10px; padding-right:10px;">
+				                                				<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">Día del Padre 2019: una guía hacia los obsequios más buscados en Chile, Colombia y Perú.</a>
+				                                				<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">A medida que se acerca el Día del Padre −que se celebrará el 16 de junio en Chile, Colombiay Perú− aumentan las consultas online de los consumidores y, en paralelo, las posibilidades de crecimiento para aquellas marcas que estén dispuestas a asistirlos en la búsqueda del regalo ideal.</p>
+				                                				<p style="font-style: italic;font-size: 14px;"><span>Mercado: CL, CO y PE | Contribuyente: Laura Rodriguez, Insights Manager, LCS Sales</span></p>	
+				                                			</td>
+				                                		</tr>
+				                                    </table> 
+				                                </td>
+				                             </tr>
+				                        </table>
+				                    </td>
+				                </tr>
+							</table><!-- FIN DOS COLUMNAS -->
+						<!-- DOS COLUMNAS-->
+							<table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth"  style="margin:0 auto;">
+								<tr>
+									<td class="center" style="padding:10px 0 0 0">
+						            	<table width="50%" border="0" cellpadding="0" cellspacing="0" align="left" class="	deviceWidth">
+						               		<tr>
+						                    	<td align="left" style="padding: 20px 0;">
+						                        	<a href="https://www.thinkwithgoogle.com/intl/es-419/"><img width="320" src="https://i.ibb.co/h1v0kYk/work13.png"  alt="" border="0" style="; width: 345px" class="deviceWidth" /></a>
+						                    	</td>
+						               		</tr>
+						                	<tr>
+						                    	<td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+						                        	<table>
+						                            	<tr>                                              
+						                                	<td>
+						                                		<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+							                                		<tr>
+							                                			<td align="left" style="padding-left: 10px; padding-right:10px;">
+							                                				<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">Google Marketing Live: nuevas oportunidades y soluciones para marketers.</a>
+							                                				<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">Las preferencias de los consumidores y sus demandantes recorridos online plantean nuevos desafíos para los especialistas en marketing. En ese sentido, el evento anual de innovación digital Google Marketing Live (GML) dejó potentes insights y herramientas para que las marcas puedan conectarse de manera más relevante con sus audiencias.</p>
+						                                					<p style="font-style: italic;font-size: 14px;"><span>Mercado: AR | Contribuyente: María Fernanda Argote, Account Manager, LCS Sales</span></p>	
+						                                				</td>
+						                                			</tr>
+						                                       	</table> 
+						                                	</td>
+						                             	</tr>
+						                        	</table>
+						                    	</td>
+						                	</tr>
+							            </table>
+							            <table width="49%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+							            	<tr>
+							              	    <td align="left" style="padding: 20px 0;" >
+							             	       <a href="https://www.thinkwithgoogle.com/intl/es-419/"><img src="https://i.ibb.co/6FQrvBZ/work14.png" alt="" border="0" style=" width: 345px" class="deviceWidth" /></a>
+							               		</td>
+							           		</tr>
+							            	<tr>
+							                	<td style="font-weight: normal; text-align: left; font-family: roboto, arial, sans-serif;">
+							                    	<table>
+							                        	<tr>                                              
+							                                <td>
+							                                	<table width="100%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
+							                                		<tr>
+							                                			<td align="left" style="padding-left: 10px; padding-right:10px;">
+							                                				<a href= "https://www.thinkwithgoogle.com/intl/es-419/" style="text-decoration: none; font-size: 20px;color: #606060; font-weight: bold; font-family:Roboto, Helvetica, arial, sans-serif;">Claves para conseguir mejores herramientas de medición de marketing</a>
+							                                				<p style="text-align:left;font-family:Roboto, Helvetica, arial, sans-serif; color:#757575; font-size:18px; line-height:1.4; margin:0px;padding-bottom:5px;padding-top: 5px">Hoy en día, las empresas que consigan mejores herramientas de medición estarán un paso adelante a la hora de alcanzar mejores resultados comerciales y diferenciarse de la competencia. Descubre en este artículo las principales claves para alcanzar este objetivo.</p>
+							                                				<p style="font-style: italic;font-size: 14px;"><span>Mercado: Global | Contribuyente: TwG Global Team</span></p>	
+							                                			</td>
+							                                		</tr>
+							                                  	</table> 
+							                                </td>
+							                             </tr>
+							                        </table>
+							                    </td>
+							                </tr>
+							            </table>
+							        </td>
+							    </tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+<!-- Footer -->
+	    <tr>
+    		<td style="padding-top: 20px;">
+    			<hr width="100%" style="color: #0056b2;" />
+    		</td>
+    	</tr> 
+    
+        <tr>
+        	<td valign="middle">
+          		<div class="overlay"></div>
+            	<table>
+            		<tr>
+            			<td>
+            				<div class="text" style="padding: 0 2em; text-align: center; font-size: 14px;">
+            					<p>Manténte al día con lo último en tendencias e insights en marketing digital con Think With Google Latinoamérica.</p>
+            				</div>
+            			</td>
+            		</tr>
+            	</table>
+            </td>
+	    </tr><!-- end tr -->
+         <tr>
+			           				<td style="padding-top: 10px;"></td>
+			           			</tr>           
+        <tr>
+            <td style="word-break:break-word;font-size:0px;padding:0px 25px 5px;" align="center">
+                <div style="cursor:auto;color:#000000;font-family:Roboto, Helvetica, Arial, sans-serif;">
+                    <p style=" width:40%; background-color:#67a659; text-align:center; font-family:Roboto, Helvetica, arial, sans-serif; font-weight: bold; font-size:14px; line-height:1.4; margin:0px;padding-top:7px;padding-bottom:7px; border-radius:1em;" margin-left="5" margin-rigth="5"><a href="https://getsubscriptions.withgoogle.com/intl/es-419/newsletter/thinkwithgoogle/signup?referrer_source=www.thinkwithgoogle.com&_ga=1.169753953.173225489.1467232330" style="text-decoration:none; border-radius:1em" target="_blank"><font color=#ffffff>SUSCRIBITE</font></a>
+                    </p>
+                </div>
+            </td>
+        </tr>
+
+			<tr>
+				<td class="p30-15" style="padding: 50px 0px;" bgcolor="#ffffff">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td align="center" style="padding-bottom: 15px;">
+								<table border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td class="img" width="55" style="font-size:0pt; line-height:0pt; text-align:center;"><a href="https://twitter.com/ThinkGoogleLA?lang=es" target="_blank"><img src="https://i.ibb.co/pWqbdFT/t8-ico-twitter.jpg" width="38" height="38" border="0" alt="" /></a></td>
+										<td class="img" width="38" style="font-size:0pt; line-height:0pt; text-align:center;"><a href="https://www.linkedin.com/showcase/think-with-google/" target="_blank"><img src="https://i.ibb.co/Ch91ShK/t8-ico-linkedin.jpg" width="38" height="38" border="0" alt="" /></a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		<!-- END Footer -->
+</table>
+</center>
+</body>
+
